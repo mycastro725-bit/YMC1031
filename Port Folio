@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yodel Castro - Telecommunications & Fiber Optics Specialist</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              blue: '#0284c7',
+              dark: '#0f172a',
+              navy: '#1e293b',
+              accent: '#38bdf8',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-sky-500 selection:text-white">
+
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex items-center space-x-3">
+          <div class="bg-sky-600 text-white p-2 rounded-lg font-bold text-xl shadow-sm">
+            <i class="fa-solid fa-network-wired"></i>
+          </div>
+          <span class="font-bold text-xl tracking-tight text-slate-900">Yodel Castro</span>
+        </div>
+        <div class="hidden md:flex space-x-8 text-sm font-medium">
+          <a href="#about" class="text-slate-600 hover:text-sky-600 transition">About</a>
+          <a href="#skills" class="text-slate-600 hover:text-sky-600 transition">Skills</a>
+          <a href="#experience" class="text-slate-600 hover:text-sky-600 transition">Experience</a>
+          <a href="#certifications" class="text-slate-600 hover:text-sky-600 transition">Certifications</a>
+          <a href="#education" class="text-slate-600 hover:text-sky-600 transition">Education</a>
+          <a href="#contact" class="text-slate-600 hover:text-sky-600 transition">Contact</a>
+        </div>
+        <div>
+          <a href="mailto:mycastro725@gmail.com" class="bg-sky-600 hover:bg-sky-500 text-white font-semibold px-4 py-2 rounded-lg transition duration-200 text-sm shadow-sm">
+            Get in Touch
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="about" class="py-20 bg-gradient-to-b from-white via-slate-50 to-white border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
+        <div class="md:col-span-2 space-y-6">
+          <div class="inline-flex items-center space-x-2 bg-sky-50 border border-sky-200 text-sky-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span>Available for OSP & FTTH Projects</span>
+          </div>
+          <h1 class="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
+            Fiber Optics & Telecommunications <span class="text-sky-600">Specialist</span>
+          </h1>
+          <p class="text-lg text-slate-600 leading-relaxed">
+            Dedicated telecommunications professional with <strong class="text-slate-900">6+ years of hands-on experience</strong>[cite: 2] specializing in fiber optic FTTH/FTTx infrastructure, fusion splicing, OTDR diagnostics, Ethernet/VoIP configuration, and subscriber line maintenance across Italy and the Philippines[cite: 2, 4].
+          </p>
+          
+          <div class="flex flex-wrap gap-4 text-sm text-slate-600 pt-2">
+            <span class="flex items-center space-x-2 bg-white px-3 py-1.5 rounded-md border border-slate-200 shadow-xs">
+              <i class="fa-solid fa-location-dot text-sky-600"></i>
+              <span>Padova, Italy / Quezon City, PH</span>[cite: 2]
+            </span>
+            <span class="flex items-center space-x-2 bg-white px-3 py-1.5 rounded-md border border-slate-200 shadow-xs">
+              <i class="fa-solid fa-passport text-sky-600"></i>
+              <span>Italian Work Permit</span>[cite: 2]
+            </span>
+            <span class="flex items-center space-x-2 bg-white px-3 py-1.5 rounded-md border border-slate-200 shadow-xs">
+              <i class="fa-solid fa-shield-halved text-sky-600"></i>
+              <span>WAH Certified (Heights)</span>[cite: 2]
+            </span>
+          </div>
+
+          <div class="flex flex-wrap gap-4 pt-4">
+            <a href="mailto:mycastro725@gmail.com" class="bg-sky-600 hover:bg-sky-500 text-white font-bold px-6 py-3 rounded-lg shadow-md hover:shadow-lg transition flex items-center space-x-2">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Email Me</span>
+            </a>
+            <a href="https://www.linkedin.com/in/ymc1031" target="_blank" class="bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 font-semibold px-6 py-3 rounded-lg transition flex items-center space-x-2 shadow-xs">
+              <i class="fa-brands fa-linkedin text-sky-600"></i>
+              <span>LinkedIn Profile</span>[cite: 2]
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Stats Card -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 space-y-6 shadow-md">
+          <h3 class="text-lg font-bold text-slate-900 border-b border-slate-100 pb-3 flex items-center justify-between">
+            <span>Key Overview</span>
+            <i class="fa-solid fa-chart-simple text-sky-600"></i>
+          </h3>
+          <div class="space-y-4">
+            <div>
+              <div class="text-3xl font-extrabold text-sky-600">6+ Years</div>[cite: 2]
+              <div class="text-xs text-slate-500 uppercase tracking-wider font-semibold">Telecom Field Experience</div>[cite: 2]
+            </div>
+            <div>
+              <div class="text-3xl font-extrabold text-emerald-600">FTTH / OSP</div>[cite: 2, 3]
+              <div class="text-xs text-slate-500 uppercase tracking-wider font-semibold">Core Infrastructure Specialty</div>[cite: 2]
+            </div>
+            <div>
+              <div class="text-3xl font-extrabold text-indigo-600">VoIP & SIP</div>[cite: 4]
+              <div class="text-xs text-slate-500 uppercase tracking-wider font-semibold">Subscriber Line Provisioning</div>[cite: 4]
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills Section -->
+  <section id="skills" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-3xl font-bold text-slate-900">Technical Core Competencies</h2>
+        <p class="text-slate-600 mt-2">Hands-on expertise across fiber optic engineering, team management, broadband provisioning, and field safety protocols.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Skill 1 -->
+        <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 hover:border-sky-400 transition shadow-xs">
+          <div class="w-12 h-12 bg-sky-100 text-sky-600 rounded-lg flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Fiber & Splicing</h3>[cite: 3]
+          <ul class="text-sm text-slate-600 space-y-2 list-disc list-inside">
+            <li>Fusion Splicing (Core Alignment)</li>[cite: 3, 4]
+            <li>Mechanical Splicing & Cleaving</li>[cite: 3]
+            <li>FTTH / FTTx Deployments</li>[cite: 2, 3]
+            <li>Splice Trays, ODF & Dome Closures</li>[cite: 3]
+          </ul>
+        </div>
+
+        <!-- Skill 2 -->
+        <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 hover:border-sky-400 transition shadow-xs">
+          <div class="w-12 h-12 bg-sky-100 text-sky-600 rounded-lg flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Testing & Analytics</h3>[cite: 3]
+          <ul class="text-sm text-slate-600 space-y-2 list-disc list-inside">
+            <li>OTDR Trace Diagnostics</li>[cite: 3, 4]
+            <li>Optical Power Meters (OPM) & OLTS</li>[cite: 3, 4]
+            <li>Visual Fault Locators (VFL)</li>[cite: 3, 4]
+            <li>Link Budget & Loss Calculations</li>[cite: 3]
+          </ul>
+        </div>
+
+        <!-- Skill 3 -->
+        <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 hover:border-sky-400 transition shadow-xs">
+          <div class="w-12 h-12 bg-sky-100 text-sky-600 rounded-lg flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-server"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Broadband & Protocols</h3>[cite: 4]
+          <ul class="text-sm text-slate-600 space-y-2 list-disc list-inside">
+            <li>Ethernet Network Configuration</li>[cite: 4]
+            <li>VoIP & SIP Protocol Setup</li>[cite: 4]
+            <li>Subscriber Line Maintenance</li>[cite: 4]
+            <li>IP Addressing & Cable Termination</li>[cite: 4]
+          </ul>
+        </div>
+
+        <!-- Skill 4 -->
+        <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 hover:border-sky-400 transition shadow-xs">
+          <div class="w-12 h-12 bg-sky-100 text-sky-600 rounded-lg flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-users-gear"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Leadership & Safety</h3>[cite: 2, 4]
+          <ul class="text-sm text-slate-600 space-y-2 list-disc list-inside">
+            <li>Personnel KPI Management</li>[cite: 4]
+            <li>Work at Height (WAH) Safety</li>[cite: 2]
+            <li>Aerial Lashing & Conduit Pulling</li>[cite: 3]
+            <li>Quality Assurance & Compliance</li>[cite: 4]
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience Section -->
+  <section id="experience" class="py-16 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-2xl mb-12">
+        <h2 class="text-3xl font-bold text-slate-900">Work Experience</h2>[cite: 4]
+        <p class="text-slate-600 mt-2">Comprehensive background in telecommunications deployment, line maintenance, and team leadership.</p>
+      </div>
+
+      <div class="space-y-8 relative before:absolute before:inset-0 before:left-4 md:before:left-1/2 before:-ml-px before:w-0.5 before:bg-slate-300">
+        
+        <!-- Experience Item 1 -->
+        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+          <div class="flex items-center justify-center w-8 h-8 rounded-full bg-sky-600 text-white shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-md font-bold text-sm">
+            1
+          </div>
+          <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2rem)] bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+            <div class="flex items-center justify-between mb-1">
+              <span class="text-xs font-semibold text-sky-600 uppercase tracking-wider">Padova, Italy</span>[cite: 4]
+              <span class="text-xs text-slate-500 font-medium">Nov 2025 - Present</span>[cite: 4]
+            </div>
+            <h3 class="text-lg font-bold text-slate-900">Fiber Optic Technician</h3>[cite: 4]
+            <p class="text-sm text-slate-700 font-semibold mb-3">Open Fiber Network Solutions</p>[cite: 4]
+            <ul class="text-sm text-slate-600 space-y-1.5 list-disc list-inside">
+              <li>Identify hazards and strictly maintain field safety protocols in outdoor installations.</li>[cite: 4]
+              <li>Lay, route, install, and terminate fiber optic cables underground and on overhead pole lines.</li>[cite: 4]
+              <li>Operate fusion splicers, OTDRs, Optical Power Meters (OPM), Visual Fault Locators (VFLs), fiber blowing machines, and manlift trucks.</li>[cite: 4]
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience Item 2 -->
+        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+          <div class="flex items-center justify-center w-8 h-8 rounded-full bg-slate-200 text-sky-700 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 border border-slate-300 font-bold text-sm shadow-xs">
+            2
+          </div>
+          <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2rem)] bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+            <div class="flex items-center justify-between mb-1">
+              <span class="text-xs font-semibold text-sky-600 uppercase tracking-wider">Manila, Philippines</span>[cite: 4]
+              <span class="text-xs text-slate-500 font-medium">Jan 2024 - Feb 2025</span>[cite: 4]
+            </div>
+            <h3 class="text-lg font-bold text-slate-900">Fiber Optic Technician</h3>[cite: 4]
+            <p class="text-sm text-slate-700 font-semibold mb-3">Source Telecoms</p>[cite: 4]
+            <ul class="text-sm text-slate-600 space-y-1.5 list-disc list-inside">
+              <li>Resolved fiber optic network issues through testing, fault analysis, and primary line recabling.</li>[cite: 4]
+              <li>Operated diagnostic and splicing tools (OTDR, Fusion Machines, OPM) to ensure network link stability.</li>[cite: 4]
+              <li>Maintained strict safety compliance while working on live telecom infrastructure.</li>[cite: 4]
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience Item 3 -->
+        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+          <div class="flex items-center justify-center w-8 h-8 rounded-full bg-slate-200 text-sky-700 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 border border-slate-300 font-bold text-sm shadow-xs">
+            3
+          </div>
+          <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2rem)] bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+            <div class="flex items-center justify-between mb-1">
+              <span class="text-xs font-semibold text-sky-600 uppercase tracking-wider">Quezon City, Philippines</span>[cite: 4]
+              <span class="text-xs text-slate-500 font-medium">Mar 2019 - Jul 2022</span>[cite: 4]
+            </div>
+            <h3 class="text-lg font-bold text-slate-900">ISP Team Leader</h3>[cite: 4]
+            <p class="text-sm text-slate-700 font-semibold mb-3">FiberHome Philippines Inc.</p>[cite: 4]
+            <ul class="text-sm text-slate-600 space-y-1.5 list-disc list-inside">
+              <li>Managed personnel Key Performance Indicators (KPIs) to drive team productivity and operational efficiency.</li>[cite: 4]
+              <li>Supervised a team of field technicians and engineers responsible for subscriber line operations.</li>[cite: 4]
+              <li>Organized work schedules, task distribution, and effective team communication channels.</li>[cite: 4]
+              <li>Enforced health & safety protocols, quality assurance, and subscriber line operational standards.</li>[cite: 4]
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience Item 4 -->
+        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+          <div class="flex items-center justify-center w-8 h-8 rounded-full bg-slate-200 text-sky-700 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 border border-slate-300 font-bold text-sm shadow-xs">
+            4
+          </div>
+          <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2rem)] bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+            <div class="flex items-center justify-between mb-1">
+              <span class="text-xs font-semibold text-sky-600 uppercase tracking-wider">Philippines</span>[cite: 4]
+              <span class="text-xs text-slate-500 font-medium">Prior Role</span>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900">Junior Broadband Specialist</h3>[cite: 4]
+            <p class="text-sm text-slate-700 font-semibold mb-3">Asticom Technologies Inc.</p>[cite: 4]
+            <ul class="text-sm text-slate-600 space-y-1.5 list-disc list-inside">
+              <li>Handled installation and maintenance of telephone lines, internet connections, and subscriber lines for residential and commercial customers.</li>[cite: 4]
+              <li>Executed Ethernet configuration, VoIP, and SIP configuration for customer premise equipment.</li>[cite: 4]
+              <li>Ensured strict adherence to safety protocols, quality standards, and optimal line performance.</li>[cite: 4]
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-3xl font-bold text-slate-900">Certifications & Training</h2>[cite: 2, 3]
+        <p class="text-slate-600 mt-2">Professional credentials validating technical mastery, field safety, and systems servicing.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Cert 1 -->
+        <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 flex flex-col justify-between shadow-xs">
+          <div>
+            <div class="flex items-start justify-between mb-2">
+              <span class="text-xs font-bold text-sky-600 uppercase tracking-wider">Tower Tech Academy (2025)</span>[cite: 2]
+              <i class="fa-solid fa-award text-2xl text-sky-600"></i>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900">WAH (Work at Height) Certificate</h3>[cite: 2]
+            <p class="text-sm text-slate-600 mt-3">
+              Fall Hazard Recognition, Personal Fall Protection Systems (PFPS), 3-point contact climbing, rope access, and dual-rope rigging systems.
+            </p>[cite: 2]
+          </div>
+        </div>
+
+        <!-- Cert 2 -->
+        <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 flex flex-col justify-between shadow-xs">
+          <div>
+            <div class="flex items-start justify-between mb-2">
+              <span class="text-xs font-bold text-sky-600 uppercase tracking-wider">IBFP Technologies Inc. (2025)</span>[cite: 2]
+              <i class="fa-solid fa-certificate text-2xl text-sky-600"></i>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900">Fiber Optic Training</h3>[cite: 2]
+            <p class="text-sm text-slate-600 mt-3">
+              Optical fiber theory, fusion & mechanical splicing, OTDR/OLTS testing, PON/FTTH infrastructure, and emergency link restoration.
+            </p>[cite: 2, 3]
+          </div>
+        </div>
+
+        <!-- Cert 3 -->
+        <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 flex flex-col justify-between shadow-xs">
+          <div>
+            <div class="flex items-start justify-between mb-2">
+              <span class="text-xs font-bold text-emerald-600 uppercase tracking-wider">TESDA Authority (NC II)</span>[cite: 3]
+              <i class="fa-solid fa-graduation-cap text-2xl text-emerald-600"></i>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900">Computer Systems & Servicing</h3>[cite: 3]
+            <p class="text-sm text-slate-600 mt-3">
+              System installation, network cable termination, IP addressing & routing, computer server setup, and fault diagnosis.
+            </p>[cite: 3, 4]
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Languages Section -->
+  <section id="education" class="py-16 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        
+        <!-- Education -->
+        <div>
+          <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center space-x-2">
+            <i class="fa-solid fa-university text-sky-600"></i>
+            <span>Education</span>[cite: 3]
+          </h2>
+          <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+            <span class="text-xs font-bold text-sky-600 uppercase tracking-wider">2006 - 2009 | Manila, Philippines</span>[cite: 4]
+            <h3 class="text-xl font-bold text-slate-900 mt-1">BS Computer Engineering</h3>[cite: 4]
+            <p class="text-sm text-slate-700 mt-2 font-medium">Eulogio "Amang" Rodriguez Institute of Technology (EARIST)</p>[cite: 4]
+            <p class="text-sm text-slate-600 mt-3">Coursework covering hardware systems, network infrastructure, computer engineering principles, and telecom fundamentals.</p>
+          </div>
+        </div>
+
+        <!-- Languages -->
+        <div>
+          <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center space-x-2">
+            <i class="fa-solid fa-language text-sky-600"></i>
+            <span>Language Skills</span>[cite: 5]
+          </h2>
+          <div class="bg-white p-6 rounded-xl border border-slate-200 space-y-4 shadow-sm">
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-slate-900 font-semibold">Filipino (Tagalog)</span>[cite: 5]
+                <span class="text-sky-600 font-bold">Native (C2)</span>[cite: 5]
+              </div>
+              <div class="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
+                <div class="bg-sky-600 h-2 rounded-full w-full"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-slate-900 font-semibold">English</span>[cite: 5]
+                <span class="text-sky-600 font-bold">Proficient (C1/C2)</span>[cite: 5]
+              </div>
+              <div class="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
+                <div class="bg-sky-600 h-2 rounded-full w-[92%]"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-slate-900 font-semibold">Italian</span>[cite: 5]
+                <span class="text-sky-600 font-bold">Basic (A2)</span>[cite: 5]
+              </div>
+              <div class="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
+                <div class="bg-sky-600 h-2 rounded-full w-[30%]"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Footer -->
+  <footer id="contact" class="py-16 bg-slate-900 text-slate-400">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+      <h2 class="text-3xl font-bold text-white">Get in Touch</h2>
+      <p class="max-w-xl mx-auto text-sm text-slate-400">
+        Available for telecommunications deployments, FTTH projects, network operations, and broadband engineering roles in Italy and across Europe.
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-8 text-sm pt-2">
+        <a href="mailto:mycastro725@gmail.com" class="flex items-center space-x-2 text-slate-200 hover:text-sky-400 transition">
+          <i class="fa-solid fa-envelope text-sky-400"></i>
+          <span>mycastro725@gmail.com</span>[cite: 2]
+        </a>
+        <a href="tel:+393520219941" class="flex items-center space-x-2 text-slate-200 hover:text-sky-400 transition">
+          <i class="fa-solid fa-phone text-sky-400"></i>
+          <span>+39 352 021 9941</span>[cite: 2]
+        </a>
+        <a href="https://www.linkedin.com/in/ymc1031" target="_blank" class="flex items-center space-x-2 text-slate-200 hover:text-sky-400 transition">
+          <i class="fa-brands fa-linkedin text-sky-400"></i>
+          <span>LinkedIn</span>[cite: 2]
+        </a>
+      </div>
+
+      <div class="pt-8 border-t border-slate-800 text-xs text-slate-500">
+        © 2026 Yodel Castro. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
